@@ -7,7 +7,8 @@ I'm dicking around!
 
 ## First section: Some test file
 
-* this is my test file
-<test/test.js>
+this is my test file
+
+<test/test.js*>
 
 now I should probably explain it
