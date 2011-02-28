@@ -1,16 +1,13 @@
-Title: Control Flow in Node Part II
+Title: Testing
 Author: Elijah Hamovitz
-Date: Thu Feb 04 2010 02:24:35 GMT-0600 (CST)
+Date: Mon Feb 28 12:57:56 PST 2011
 Node: v0.4.0
 
-I had so much fun writing the last article on control flow, that I decided to...
+I'm dicking around!
 
-## First section: Display JavaScript files
+## First section: Some test file
 
-* display contents of external JavaScript file (path is relative to .markdown file)
-<test-code/test-file.js>
+* this is my test file
+<test/test.js>
 
-* display contents of external JavaScript file and evaluate its contents 
-<test-code/evaluate-file.js*>
-
-More content goes here.
+now I should probably explain it
