@@ -15,7 +15,13 @@ outlines a fairly robust method of creating ``Object Factories'' which
 is fairly similar to the functional inheritance scheme described in
 Javascript - The Good Parts.
 
-<messing-with-scope/factory.js>
+<messing-with-scope/factory.js*>
 
-Adna dljwal
+This is a pretty cool pattern; anything outside the return block is only
+visible by the methods you return so you can carefully control access
+rights; new methods defined on the object or even redefined old methods
+can't touch your instantiation variables.
+
+<messing-with-scope/factory2.js*>
+
 
