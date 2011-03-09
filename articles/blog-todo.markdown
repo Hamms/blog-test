@@ -1,4 +1,4 @@
-Title: Messing With Scope
+Title: Blog To-Do
 Author: Elijah Hamovitz
 Date: Wed Mar  9 15:32:44 PST 2011
 
