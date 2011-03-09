@@ -1,4 +1,4 @@
-// definition
+//definition
 function factory(x){
   return {
     f1 : function(){
@@ -11,7 +11,7 @@ var printer = factory('Howdy');
 
 printer.f1();
 
-// redefinition
+//redefinition
 var printer = factory('Howdy');
 
 printer.f1 = function(){
