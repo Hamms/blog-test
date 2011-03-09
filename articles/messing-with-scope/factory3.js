@@ -1,6 +1,7 @@
 //definition
 function factory(x){
   var that = {};
+
   var f1 = that.f1 = function(){
     console.log(x)
   };

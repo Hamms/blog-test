@@ -41,6 +41,13 @@ unexpected consequences:
 
 <messing-with-scope/factory2.js#redefinition*>
 
+To fix that, instead of relying on the dynamic 'this' relation, we can
+simply explicitly define our functions within the function scope.
+
 <messing-with-scope/factory3.js#definition*>
+
+By using the 'that' object to build our return set as well as
+carefully-scoped vars to hold our internal references, we keep our
+dependencies free from any tampering.
 
 <messing-with-scope/factory3.js#redefinition*>
