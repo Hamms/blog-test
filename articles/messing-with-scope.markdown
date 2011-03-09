@@ -12,7 +12,7 @@ Javascript.
 
 In [Learning Javascript with Object Graphs (Part
 II)](http://howtonode.org/object-graphs-2), Tim Caswell outlines a fairly
-robust method of creating ``Object Factories'' which is fairly similar to the
+robust method of creating "Object Factories" which is fairly similar to the
 functional inheritance scheme described in Javascript - The Good Parts.
 
 <messing-with-scope/factory.js#definition*>
@@ -26,5 +26,13 @@ Something like:
 
 <messing-with-scope/factory.js#redefinition*>
 
-Will not expose your secrets.
+Will not expose your secrets. But it does lead to a problem: what if we
+want to use our methods in other methods? Say we do something like 
 
+<messing-with-scope/factory2.js#definition*>
+
+Cool, right? By giving our function a name instead of just declaring it
+anonymously and attaching it to a key, we make it accessible to
+everything within the function scope.
+
+Unfortunately, that 

@@ -6,6 +6,7 @@ function factory(x){
     },
 
     f2 : function(y){
+      f1();
       console.log(y)
     }
   }
@@ -13,15 +14,12 @@ function factory(x){
 
 var printer = factory('Howdy');
 
-printer.f1();
 printer.f2('Pardner');
 
 //redefinition
-var printer = factory('Howdy');
-
 printer.f1 = function(){
-  console.log("Here's your private variable: " + x);
+  console.log('Bugger off');
 }
 
-printer.f1();
+printer.f2('Pardner');
 

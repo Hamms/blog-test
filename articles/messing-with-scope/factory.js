@@ -12,8 +12,6 @@ var printer = factory('Howdy');
 printer.f1();
 
 //redefinition
-var printer = factory('Howdy');
-
 printer.f1 = function(){
   console.log("Here's your private variable: " + x);
 }
