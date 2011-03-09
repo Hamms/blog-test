@@ -15,14 +15,24 @@ outlines a fairly robust method of creating ``Object Factories'' which
 is fairly similar to the functional inheritance scheme described in
 Javascript - The Good Parts.
 
-<messing-with-scope/factory.js>
+<messing-with-scope/factory.js*>
 
 This is a pretty cool pattern; anything outside the return block is only
 visible by the methods you return so you can carefully control access
 rights; new methods defined on the object or even redefined old methods
 can't touch your instantiation variables.
 
-<messing-with-scope/factory2.js>
+Something like:
 
-dljadljawleja
+//  var printer = factory('Howdy');
+//  
+//  printer.f1 = function(){
+//    console.log("Here's your private variable: " + x);
+//  }
+//  
+//  printer.f1();
+
+<messing-with-scope/factory2.js*>
+
+Will throw an error
 
