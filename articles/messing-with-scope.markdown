@@ -35,4 +35,7 @@ Cool, right? By giving our function a name instead of just declaring it
 anonymously and attaching it to a key, we make it accessible to
 everything within the function scope.
 
-Unfortunately, that 
+Unfortunately, that accessibility is dynamic, which has potentially
+unexpected consequences:  
+
+<messing-with-scope/factory2.js#redefinition*>
