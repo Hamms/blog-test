@@ -1,7 +1,7 @@
 //definition
 function factory(x){
   return {
-    f1 : function(){
+    f1 : function f1(){
       console.log(x)
     },
 
