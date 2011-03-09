@@ -6,7 +6,7 @@ function factory(x){
     },
 
     f2 : function(y){
-      f1();
+      this.f1();
       console.log(y)
     }
   }
