@@ -1,13 +1,12 @@
 //definition
 function factory(x){
-  var self = this;
   return {
     f1 : function f1(){
       console.log(x)
     },
 
     f2 : function(y){
-      self.f1();
+      this.f1();
       console.log(y)
     }
   }
