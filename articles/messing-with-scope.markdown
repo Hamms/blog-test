@@ -40,5 +40,7 @@ Unfortunately, the 'this' relation is
 unexpected consequences:  
 
 <messing-with-scope/factory2.js#redefinition*>
+
 <messing-with-scope/factory3.js#definition*>
+
 <messing-with-scope/factory3.js#redefinition*>
