@@ -1,14 +1,15 @@
 //definition
 function factory(x){
-  var that = {}
+  var that = {};
   var f1 = that.f1 = function(){
     console.log(x)
-  },
+  };
 
   var f2 = that.f2 = function(y){
     f1();
     console.log(y)
-  }
+  };
+
   return that;
 }
 
