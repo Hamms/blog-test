@@ -10,10 +10,10 @@ Javascript.
 
 ## Object Factories
 
-In http://howtonode.org/object-graphs-2, Tim Caswell
-outlines a fairly robust method of creating ``Object Factories'' which
-is fairly similar to the functional inheritance scheme described in
-Javascript - The Good Parts.
+In [Learning Javascript with Object Graphs (Part
+II)](http://howtonode.org/object-graphs-2), Tim Caswell outlines a fairly
+robust method of creating ``Object Factories'' which is fairly similar to the
+functional inheritance scheme described in Javascript - The Good Parts.
 
 <messing-with-scope/factory.js#definition*>
 
@@ -24,7 +24,7 @@ can't touch your instantiation variables.
 
 Something like:
 
-<messing-with-scope/factory2.js#redefinition*>
+<messing-with-scope/factory.js#redefinition*>
 
-Will throw an error
+Will not expose your secrets.
 
