@@ -6,19 +6,19 @@ This live document should be used to document additions that need to be
 made to this blog or this blog engine. Feel free to edit as you see
 necessary.
 
-# Blog
+## Blog
 
   * theming
   * hosting
   * importing past blog data
 
-# Wheat
+## Wheat
 
  * explore other forks on github
  * Support for more languages
  * support for manual output specification for source code
 
-# Other
+## Other
 
 Sites that use wheat:
 
